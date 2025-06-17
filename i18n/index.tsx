@@ -9,11 +9,12 @@ import {
 import translations, { TranslationKeys } from "./translations";
 
 type Language = "es" | "en";
+export type LanguageFunctionType = (key: TranslationKeys) => string;
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: TranslationKeys) => string;
+  t: LanguageFunctionType;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(

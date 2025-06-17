@@ -4,6 +4,7 @@ import { CodeSquare, HomeIcon, UserRound, Mail } from "lucide-react";
 import Linkedin from "@/icons/linkedin.svg";
 import Github from "@/icons/github.svg";
 import Download from "@/icons/download.svg";
+import { LanguageFunctionType } from "@/i18n";
 
 export const socialNetworks = (language: Language) => [
   {
@@ -57,7 +58,7 @@ export const itemsNavbar = [
   },
 ];
 
-export const dataAboutPage = (t) => [
+export const dataAboutPage = (t: LanguageFunctionType) => [
   {
     id: 1,
     title: t("job1Title"),
@@ -81,7 +82,7 @@ export const dataAboutPage = (t) => [
   },
 ];
 
-export const dataProjects = (t) => [
+export const dataProjects = (t: LanguageFunctionType) => [
   {
     id: 1,
     title: t("project1Title"),
