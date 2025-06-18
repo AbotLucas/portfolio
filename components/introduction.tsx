@@ -11,7 +11,7 @@ const Introduction = () => {
     <div className="z-20 w-full bg-darkBg/60">
       <div className="z-20 grid justify-items-center items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
         <Image
-          src="/home.png"
+          src="/avatar-home.png"
           priority
           width="300"
           height="300"
