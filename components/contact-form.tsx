@@ -43,7 +43,8 @@ const ContactMe = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} id="contact_form">
-      <div className="relative flex flex-col border border-primary bg-tertiary p-10 rounded-xl w-110 md:w-130 mt-2 md:mt-0">
+      <div className="relative flex flex-col border border-primary 
+                      bg-tertiary p-10 rounded-xl w-100 md:w-130 mt-2 md:mt-0">
         <label htmlFor="name" className="relative w-full mb-6">
           <input
             type="text"

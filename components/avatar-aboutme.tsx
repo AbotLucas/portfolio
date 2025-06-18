@@ -5,13 +5,13 @@ const Avatar = () => {
   return (
     <MotionTransition
       position="bottom"
-      className="bottom-0 right-0 hidden md:inline-block md:absolute"
+      className="bottom-0 right-0 hidden lg:inline-block md:absolute"
     >
       <Image
         src="/avatar-aboutme.png"
         width={300}
         height={300}
-        className="w-full h-full 2xl:w-140 position-fixed"
+        className="w-full h-full position-fixed"
         alt="Avatar"
       />
     </MotionTransition>

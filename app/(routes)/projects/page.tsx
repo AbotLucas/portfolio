@@ -24,7 +24,7 @@ const ProjectsPage = () => {
     <ContainerPage>
       <TransitionPage />
       <Avatar />
-      <div className="flex flex-col justify-center h-full mt-25">
+      <div className="flex flex-col justify-center h-full mt-25 2xl:mt-50">
         <h1 className="text-2xl leading-tight text-center md:text-3xl md:mb-5">
           {t("projects1")}{" "}
           <span className="inline-block font-bold text-secondary">
@@ -38,7 +38,7 @@ const ProjectsPage = () => {
                 freeMode={true}
                 pagination={{ clickable: true }}
                 modules={[Pagination]}
-                className="h-[370px] md:h-[400px] w-[320px] md:w-[550px]"
+                className="h-[370px] md:h-[450px] w-[320px] md:w-[550px]"
               >
                 {dataProjects(t).map(
                   ({ id, title, description, image, urlDemo, urlGithub }) => (
