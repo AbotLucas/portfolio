@@ -11,14 +11,17 @@ const Introduction = () => {
     <div className="z-20 w-full bg-darkBg/60">
       <div className="z-20 grid justify-items-center items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
         <Image
-          src="/avatar-home.png"
+          src="/home.png"
           priority
           width="300"
           height="300"
           alt="Profile pic"
           className="hidden md:justify-self-end md:block"
         />
-        <div className="flex flex-col justify-center max-w-md md:justify-self-start">
+        <div
+          className="flex flex-col justify-center max-w-md md:self-center md:justify-self-start 
+                     self-start mt-10"
+        >
           <h1 className="mb-5 text-2xl leading-tight text-center md:text-left">
             {t("frontend")}{" "}
             <TypeAnimation

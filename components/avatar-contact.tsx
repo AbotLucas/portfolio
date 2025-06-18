@@ -5,7 +5,7 @@ const AvatarContact = () => {
   return (
     <MotionTransition
       position="right"
-      className="bottom-0 hidden md:inline-block md:absolute"
+      className="bottom-0 hidden xl:inline-block md:absolute 2xl:bottom-50"
     >
       <Image
         src="/avatar-contact.png"

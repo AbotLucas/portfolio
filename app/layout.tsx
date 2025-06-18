@@ -12,8 +12,23 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Abot Lucas - Frontend Developer",
+  title: "Lucas Abot - Frontend Developer",
   description: "Mi portfolio de trabajo como frontend developer.",
+  openGraph: {
+    title: "Lucas Abot – Frontend Developer",
+    description: "Portfolio profesional, hecho con React y pasión.",
+    url: "https://abotlucas.netlify.app",
+    siteName: "Lucas Abot Portfolio",
+    images: [
+      {
+        url: "https://abotlucas.netlify.app/preview.PNG",
+        width: 1200,
+        height: 630,
+        alt: "Lucas Abot Portfolio Preview",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
