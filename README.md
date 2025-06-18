@@ -34,7 +34,7 @@ Aquí muestro algunos de los proyectos más importantes en los que trabajé, jun
 
 ---
 
-## 🧪 Modo local (opcional)
+## 🧪 Modo local
 
 Este proyecto está publicado como código abierto para fines de referencia.  
 Si querés clonar o ejecutar localmente:
