@@ -1,6 +1,6 @@
 "use client";
 
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Code, Globe } from "lucide-react";
@@ -33,12 +33,17 @@ const ProjectsPage = () => {
           <div className="flex items-center justify-center mt-3">
             <div>
               <Swiper
-                autoplay
+                autoplay={{
+                  delay: 5000,
+                  disableOnInteraction: true,
+                }}
                 breakpoints={{ 380: { slidesPerView: 1, spaceBetween: 15 } }}
                 freeMode={true}
                 pagination={{ clickable: true }}
-                modules={[Pagination]}
-                className="h-[370px] md:h-[450px] w-[320px] md:w-[550px]"
+                modules={[Autoplay, Pagination, Navigation]}
+                className="h-[370px] md:h-[405px] w-[320px] md:w-[550px]"
+                navigation={true}
+                loop={true}
               >
                 {dataProjects(t).map(
                   ({ id, title, description, image, urlDemo, urlGithub }) => (

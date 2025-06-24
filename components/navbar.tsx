@@ -16,14 +16,21 @@ const Navbar = () => {
       <nav>
         <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-tertiary background-blur-sm border-1 border-primary">
           {itemsNavbar.map((item) => (
-            <div
+            <Link
+              title={item.title}
+              role="navigation"
+              aria-label={item.title}
               key={item.id}
-              className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-quaternary/50 ${
-                router == item.link && "bg-quaternary/50"
-              }`}
+              href={item.link}
             >
-              <Link href={item.link}>{item.icon}</Link>
-            </div>
+              <div
+                className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-quaternary/50 ${
+                  router == item.link && "bg-quaternary/50"
+                }`}
+              >
+                {item.icon}
+              </div>
+            </Link>
           ))}
         </div>
       </nav>

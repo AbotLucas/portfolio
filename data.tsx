@@ -10,18 +10,21 @@ export const socialNetworks = (language: Language) => [
   {
     id: 1,
     Logo: Linkedin,
+    title: "Linkedin",
     src: "https://www.linkedin.com/in/abotlucas/",
     props: {},
   },
   {
     id: 2,
     Logo: Github,
+    title: "Github",
     src: "https://github.com/AbotLucas",
     props: {},
   },
   {
     id: 3,
     Logo: Download,
+    title: "Download CV",
     src: `/docs/AbotLucas${language == "es" ? "" : "Eng"}.pdf`,
     props: { download: true },
   },
@@ -36,7 +39,7 @@ export const itemsNavbar = [
   },
   {
     id: 2,
-    title: "User",
+    title: "About Me",
     icon: (
       <UserRound size={25} color="var(--color-secondary)" strokeWidth={1} />
     ),
@@ -44,13 +47,13 @@ export const itemsNavbar = [
   },
   {
     id: 3,
-    title: "Phone",
+    title: "Contact",
     icon: <Mail size={25} color="var(--color-secondary)" strokeWidth={1} />,
     link: "/contact",
   },
   {
     id: 4,
-    title: "Target",
+    title: "Projects",
     icon: (
       <CodeSquare size={25} color="var(--color-secondary)" strokeWidth={1} />
     ),
