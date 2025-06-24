@@ -53,3 +53,21 @@ main {
   background: var(--color-secondary);
   opacity: 1;
 }
+
+.swiper .swiper-button-next {
+  color: var(--color-secondary);
+  opacity: 0.2;
+}
+
+.swiper .swiper-button-next:hover {
+  opacity: 1;
+}
+
+.swiper .swiper-button-prev {
+  color: var(--color-secondary);
+  opacity: 0.2;
+}
+
+.swiper .swiper-button-prev:hover {
+  opacity: 1;
+}

@@ -7,15 +7,11 @@ const translations = {
     contactMe: "Contactame",
     defaultErrorMsg: "No se pudo enviar. Hubo un error desconocido.",
     email: "Email",
+    english: "Ingles",
     frontend: "Frontend",
     introduction:
       "Creo interfaces modernas donde el diseño y el código se alinean para lograr experiencias visuales impactantes y accesibles.",
-    message: "Mensaje",
-    name: "Nombre",
-    projects1: "Proyectos",
-    projects2: "Realizados",
-    viewProjects: "Ver proyectos",
-    send: "Enviar",
+
     job1Title: "Desarrollador Frontend",
     job1Subtitle: "Widergy",
     job1Description: `Responsable del frontend en el desarrollo de la oficina virtual de EDEA, reutilizada luego por otras distribuidoras del grupo DESA. 
@@ -31,6 +27,8 @@ const translations = {
     job3Description: `Formación en Go, React, AWS y metodologías ágiles. Desarrollé una API conectada a un clon de Twitter. 
                       Luego migré el sitio institucional de Gatsby a Next.js como parte del equipo de frontend.`,
     job3Date: "Dic 2020",
+    message: "Mensaje",
+    name: "Nombre",
     project1Title: `Edea`,
     project1Description: `Portal de atención digital para usuarios de EDEA (servicio de electricidad). <br />
                       Participé como desarrollador frontend principal en la implementación de la oficina virtual, utilizando React, React Native, Redux y Sass. <br />  
@@ -68,6 +66,12 @@ const translations = {
     project10Title: "Página Institucional",
     project10Description: `Sitio institucional inspirado en el podcast Ruzzarin Bros. <br />
                        Stack: JavaScript, HTML, CSS, Bootstrap.`,
+    projects1: "Proyectos",
+    projects2: "Realizados",
+    send: "Enviar",
+    spanish: "Español",
+    switchTo: "Cambiar a ",
+    viewProjects: "Ver proyectos",
   },
   en: {
     aboutme1: "All my",
@@ -77,15 +81,10 @@ const translations = {
     contactMe: "Contact me",
     defaultErrorMsg: "Could not be sent. There was an unknown error.",
     email: "Email",
+    english: "English",
     frontend: "Frontend",
     introduction:
       "I create modern interfaces where design and code align to achieve stunning and accessible visual experiences.",
-    message: "Message",
-    name: "Name",
-    projects1: "Proyects",
-    projects2: "Completed",
-    viewProjects: "View projects",
-    send: "Send",
     job1Title: "Frontend Developer",
     job1Subtitle: "Widergy",
     job1Description: `Led the frontend development of EDEA's virtual office platform, 
@@ -105,6 +104,8 @@ const translations = {
                   connected to a Twitter clone frontend. Later migrated the company’s website 
                   from Gatsby to Next.js as part of the frontend team.`,
     job3Date: "Dec 2020",
+    message: "Message",
+    name: "Name",
     project1Title: `Edea`,
     project1Description: `Digital service portal for EDEA electricity customers. <br />
                       I served as the main frontend developer, implementing the virtual office using React, React Native, Redux, and Sass. <br />
@@ -142,6 +143,12 @@ const translations = {
     project10Title: "Institutional Page",
     project10Description: `Landing page inspired by the Ruzzarin Bros podcast. <br />
                        Stack: JavaScript, HTML, CSS, Bootstrap.`,
+    projects1: "Proyects",
+    projects2: "Completed",
+    send: "Send",
+    spanish: "Spanish",
+    switchTo: "Switch to ",
+    viewProjects: "View projects",
   },
 } as const;
 
